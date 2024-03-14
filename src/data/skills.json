@@ -1,0 +1,42 @@
+[
+    {
+        "title" : "HTML",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title" : "CSS",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title" : "Java",
+        "imageSrc": "skills/java.png"
+    },
+    {
+        "title" : "Node.js",
+        "imageSrc": "skills/node.png"
+    },
+    {
+        "title" : "MongoDB",
+        "imageSrc": "skills/mongodb.png"
+    },
+    {
+        "title" : "React",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title" : "Torch",
+        "imageSrc": "skills/pytorch.png"
+    },
+    {
+        "title" : "PyCharm",
+        "imageSrc": "skills/pycharm.png"
+    },
+    {
+        "title" : "Tensorflow",
+        "imageSrc": "skills/tensorflow.png"
+    },
+    {
+        "title" : "Sci-Kit Learn",
+        "imageSrc": "skills/sklearn.png"
+    }
+]

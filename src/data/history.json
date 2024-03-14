@@ -1,0 +1,18 @@
+[
+    {
+        "role":"Software Developer",
+        "organisation": "Tata Consultancy Services",
+        "startDate" : "Sept, 2021",
+        "endDate" : "July, 2023",
+        "experiences" : ["Worked on HP's Print Management Suite."],
+        "imageSrc": "history/tcs.png"
+    },
+    {
+        "role":"Junior SDE Intern",
+        "organisation": "ATIL LLP",
+        "startDate" : "Sept, 2021",
+        "endDate" : "July, 2023",
+        "experiences" : ["Helped build multiple Full Stack applications from scratch."],
+        "imageSrc": "history/atilllp.png"
+    }
+]
