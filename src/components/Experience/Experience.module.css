@@ -107,6 +107,12 @@
         gap: 34px; 
     }
 
+    .skills, .history {
+        width: 100%;
+        align-items: center; /* Center align the skills and history items */
+    }
+
+
     .skill {
         width: 100%;
         flex-direction: row;
@@ -116,5 +122,14 @@
     .history{
         width: 100%;
         gap: 9px;
+    }
+
+    .skillImageContainer{
+        align-items: center;
+        text-align: center;
+    }
+
+    .skillImageContainer img {
+        align-items: center;
     }
 }
