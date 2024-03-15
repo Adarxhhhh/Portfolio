@@ -1,26 +1,19 @@
-import React from 'react';
+import React from 'react'
+import styles from './ProjectCard.module.css';
 import { getImageURL } from '../../utils';
 
-export const ProjectCard = ({ project: { title, imageSrc, description, demo, skills, source } }) => {
-  console.log('Project Data:', { title, imageSrc, description, demo, skills, source }); // Debugging log
-  return (
-    <div>
-      <img
-        src={getImageURL(imageSrc)}
-        alt={`Image of ${title}`}
-        onError={(e) => { e.target.onerror = null; e.target.src = 'path/to/defaultImage.png'; }} // Adjust fallback image path
-      />
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <ul>
-        {skills.map((skill, id) => (
-          <li key={id}>{skill}</li>
-        ))}
-      </ul>
-      <div>
-        <a href={demo}>Demo</a>
-        <a href={source}>GitHub</a>
+export const ProjectCard = ({project : {title, imageSrc, description,skills, demo,  source }}) => {
+  return <div className={styles.container}>
+  <img src={getImageURL(imageSrc)} alt={`Image of ${title}`}  className={styles.image}/>
+  <h3 className={styles.title}>{title}</h3>
+  <p className={styles.description}>{description}</p>
+  <ul className={styles.skills}>{
+      skills.map((skill, id)=> {
+          return <li key={id} className={styles.skill}>{skill}</li>
+      })}</ul>
+      <div className={styles.links}>
+          <a href={demo} className={styles.link}>Demo</a>
+          <a href={source} className={styles.link}>Source</a>
       </div>
-    </div>
-  );
-};
+</div>;
+}

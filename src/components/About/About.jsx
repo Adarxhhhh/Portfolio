@@ -24,7 +24,7 @@ export const About = () => {
             <img src={getImageURL("about/serverIcon.png")} alt="server" />
             <div className={styles.aboutItemText}>
               <h3>ML Aficionado</h3>
-              <p>Machine Learning enthusiast with countless hours of experience in building and deploying industry-grade Machine Learning/Deep Learning Algorithms.</p>
+              <p>Machine Learning enthusiast interested in building and deploying industry-grade Machine Learning/Deep Learning Algorithms.</p>
             </div>
           </li>
           <li className={styles.aboutItem}>

@@ -2,8 +2,8 @@
     {
         "title":"MovieWave",
         "imageSrc":"projects/project.png",
-        "description":"An online movie/show streaming platform ",
-        "skills":["MongoDB", "Express", "MongoDB","Node.js"],
+        "description":"An online movie streaming service ",
+        "skills":["MongoDB", "Express", "React","Node.js"],
         "demo":"https://www.google.com/",
         "source": "https://github.com/Adarxhhhh"
     },
@@ -11,15 +11,23 @@
         "title":"BookNest",
         "imageSrc":"projects/project.png",
         "description":"A Hotel Booking web application",
-        "skills":["MongoDB", "Express", "MongoDB","Node.js"],
+        "skills":["MongoDB", "Express", "React","Node.js","Stripe"],
         "demo":"https://www.google.com/",
         "source": "https://github.com/Adarxhhhh"
     },
     {
         "title":"InSightID",
         "imageSrc":"projects/project.png",
-        "description":"An open source Facial Rec app using Siamese Neural Networks",
+        "description":"Real-time facial recognition app",
         "skills":["Neural Networks", "Tensorflow", "NumPy","Keras"],
+        "demo":"https://www.google.com/",
+        "source": "https://github.com/Adarxhhhh/Facial_Recognition"
+    },
+    {
+        "title":"DocuFlex",
+        "imageSrc":"projects/project.png",
+        "description":"Intuitive Document collaboration platform",
+        "skills":["Google Cloud", "React", "Express","MongoDB"],
         "demo":"https://www.google.com/",
         "source": "https://github.com/Adarxhhhh/Facial_Recognition"
     }

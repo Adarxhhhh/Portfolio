@@ -4,7 +4,9 @@
         "organisation": "Tata Consultancy Services",
         "startDate" : "Sept, 2021",
         "endDate" : "July, 2023",
-        "experiences" : ["Worked on HP's Print Management Suite."],
+        "experiences" : ["Enhanced HP's Print Management Software Suite using Java/J2EE, Spring, and Hibernate.",
+        "Integrated HP's Print Management Software Suite with HP's cloud-based printing services.", 
+        "Performed comprehensive unit, integration, and regression testing for the Print Management Software Suite using JUnit and Selenium."],
         "imageSrc": "history/tcs.png"
     },
     {
@@ -12,7 +14,8 @@
         "organisation": "ATIL LLP",
         "startDate" : "Sept, 2021",
         "endDate" : "July, 2023",
-        "experiences" : ["Helped build multiple Full Stack applications from scratch."],
+        "experiences" : ["Directed the development of an operational website, and efficiently handled daily traffic of 50-100 clients using a stack comprised of HTML5, CSS3, JavaScript and Node.js.",
+        "Designed 6 key features, including an advanced search algorithm and real-time inventory updates."],
         "imageSrc": "history/atilllp.png"
     }
 ]
